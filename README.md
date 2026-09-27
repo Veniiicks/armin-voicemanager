@@ -9,8 +9,8 @@
 
 | Ветка | Платформа | Статус |
 |---|---|---|
-| **Windows Home Edition** | Windows 10/11 | ✔ Стабильная, готовый инсталлятор |
-| **Linux Home Edition** | Ubuntu/Debian 22.04 | ✔ Рабочая, установка из `.deb` |
+| **Windows** | Windows 10/11 | ✔ Стабильная, готовый инсталлятор |
+| **Linux** | Ubuntu/Debian 22.04 | 🔧 **Техническая остановка разработки** |
 | **arminOS** | Собственный live-дистрибутив | 🔧 **В разработке** |
 
 ---
@@ -32,13 +32,13 @@
 
 ## Состав проекта
 
-### Windows Home Edition
+### Windows
 
 Готовая программа для Windows: `Armin_Home_Setup.exe` (инсталлятор Inno
 Setup). Распознавание Google Speech Recognition, ИИ через OpenRouter, режим
 печатания под диктовку, управление PowerPoint и медиа, свои команды.
 
-### Linux Home Edition (`armin-ubuntu/`)
+### Linux
 
 Python (Tkinter GUI) + **C++ ядро** (`libarmin_core.so` через ctypes).
 Локальное распознавание **Vosk** (оффлайн, ~50 МБ модель), четыре ИИ-
