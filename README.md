@@ -34,14 +34,13 @@
 ### Windows
 
 Готовая программа для Windows: `Armin_Home_Setup.exe` (инсталлятор Inno
-Setup). Распознавание Google Speech Recognition, ИИ через OpenRouter, режим
+Setup). Распознавание Google Speech Recognition, ИИ через Ollama, режим
 печатания под диктовку, управление PowerPoint и медиа, свои команды.
 
 ### Linux (приостановлено)
 
 Python (Tkinter GUI) + **C++ ядро** (`libarmin_core.so` через ctypes).
-Локальное распознавание **Vosk** (оффлайн, ~50 МБ модель), четыре ИИ-
-провайдера и Ollama, музыка (файлы/радио/Spotify), диспетчер задач как в
+Локальное распознавание **Vosk** (оффлайн, ~50 МБ модель),Ollama, музыка (файлы/радио/Spotify), диспетчер задач как в
 Windows 11, браузер «Армин», встроенные приложения. 
 
 ### arminOS (в разработке)
